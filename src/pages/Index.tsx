@@ -271,15 +271,16 @@ const Index = () => {
               <div className="h-64 overflow-hidden">
                 <img 
                   src="https://cdn.poehali.dev/files/869444c1-9e22-4723-8df4-efa41a3c1736.jpg" 
-                  alt="Артем Соколов"
-                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                  alt="Самвел Григорян"
+                  className="w-full h-full object-cover object-top hover:scale-110 transition-transform duration-500"
+                  style={{objectPosition: 'center 20%'}}
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-2xl font-bold mb-2 text-foreground">Артем Соколов, 25</h3>
-                <p className="text-primary font-semibold mb-3">IT-специалист, удаленная работа</p>
+                <h3 className="text-2xl font-bold mb-2 text-foreground">Самвел Григорян, 30</h3>
+                <p className="text-primary font-semibold mb-3">Системный предприниматель</p>
                 <p className="text-muted-foreground leading-relaxed">
-                  "Учился программированию на местных курсах, потом в филиале ЮУрГУ. Сейчас работаю на крупную IT-компанию удаленно, живу в Усть-Катаве. Зарабатываю как в Москве, а трачу как в небольшом городе."
+                  "Развиваю социальные медиа-проекты в городе и строю бизнесы в области развлечений на благо жителей, обустраивая городскую инфраструктуру. Работаю с командой единомышленников, и приношу реальный результат здесь и сейчас, на что в мегаполисе ушли бы десятилетия."
                 </p>
               </CardContent>
             </Card>
