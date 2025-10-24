@@ -288,9 +288,10 @@ const Index = () => {
             <Card className="overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/projects/37e28781-3293-4785-ac35-d8db33ecfb6d/files/9335a25c-f6cc-4699-af46-479e1188acda.jpg" 
+                  src="https://cdn.poehali.dev/files/eb54ddfc-cc65-4843-b360-fce1552954c6.jpg" 
                   alt="Анна Петрова"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                  style={{objectPosition: 'center 30%'}}
                 />
               </div>
               <CardContent className="p-6">
