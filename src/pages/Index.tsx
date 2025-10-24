@@ -266,7 +266,7 @@ const Index = () => {
             Они остались и не пожалели
           </p>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <Card className="overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img 
@@ -299,6 +299,23 @@ const Index = () => {
                 <p className="text-secondary font-semibold mb-3">Инженер по путевому измерению, РЖД</p>
                 <p className="text-muted-foreground leading-relaxed">
                   "Я закончила обучение в Уфимском железнодорожном техникуме и сразу вышла на работу в дистанцию пути. За короткий срок прошла путь от сигналиста пути до инженера, что в любом крупном городе было попросту невозможно, а тут всегда есть возможность карьерного роста и реализации своего потенциала."
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2">
+              <div className="h-64 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/projects/37e28781-3293-4785-ac35-d8db33ecfb6d/files/8924f270-5ac9-430f-b4aa-f47fb6bf76d4.jpg" 
+                  alt="Алексей Морозов"
+                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold mb-2 text-foreground">Алексей Морозов, 27</h3>
+                <p className="text-accent font-semibold mb-3">Учитель физики и робототехники</p>
+                <p className="text-muted-foreground leading-relaxed">
+                  "После педагогического вуза вернулся в родную школу. Создал кружок робототехники, мои ученики побеждают на областных олимпиадах. Здесь я не просто учитель — я наставник, которого дети знают лично. Это бесценно."
                 </p>
               </CardContent>
             </Card>
