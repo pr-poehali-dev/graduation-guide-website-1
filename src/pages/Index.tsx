@@ -306,16 +306,17 @@ const Index = () => {
             <Card className="overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2">
               <div className="h-64 overflow-hidden">
                 <img 
-                  src="https://cdn.poehali.dev/projects/37e28781-3293-4785-ac35-d8db33ecfb6d/files/8924f270-5ac9-430f-b4aa-f47fb6bf76d4.jpg" 
-                  alt="Алексей Морозов"
+                  src="https://cdn.poehali.dev/files/572651f8-8a1d-4112-9e61-62e5ea65c42b.jpg" 
+                  alt="Мария Кузнецова"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                  style={{objectPosition: 'center 25%'}}
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-2xl font-bold mb-2 text-foreground">Алексей Морозов, 27</h3>
-                <p className="text-accent font-semibold mb-3">Учитель физики и робототехники</p>
+                <h3 className="text-2xl font-bold mb-2 text-foreground">Мария Кузнецова, 24</h3>
+                <p className="text-accent font-semibold mb-3">Специалист по работе с молодежью</p>
                 <p className="text-muted-foreground leading-relaxed">
-                  "После педагогического вуза вернулся в родную школу. Создал кружок робототехники, мои ученики побеждают на областных олимпиадах. Здесь я не просто учитель — я наставник, которого дети знают лично. Это бесценно."
+                  "Окончила педагогический колледж в Челябинске и вернулась в Усть-Катав. Работаю в отделе молодежи, организую мероприятия, помогаю ребятам находить себя. Это моя миссия — делать город лучше для молодых людей."
                 </p>
               </CardContent>
             </Card>
