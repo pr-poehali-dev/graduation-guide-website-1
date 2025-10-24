@@ -320,6 +320,24 @@ const Index = () => {
                 </p>
               </CardContent>
             </Card>
+
+            <Card className="overflow-hidden hover:shadow-2xl transition-all hover:-translate-y-2">
+              <div className="h-64 overflow-hidden">
+                <img 
+                  src="https://cdn.poehali.dev/files/b739c163-8a9c-49ee-b79b-c491ae3e77a8.jpg" 
+                  alt="Елена Волкова"
+                  className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                  style={{objectPosition: 'center 30%'}}
+                />
+              </div>
+              <CardContent className="p-6">
+                <h3 className="text-2xl font-bold mb-2 text-foreground">Елена Волкова, 28</h3>
+                <p className="text-primary font-semibold mb-3">Психолог и карьерный консультант</p>
+                <p className="text-muted-foreground leading-relaxed">
+                  "Училась в Челябинске, но всегда знала, что вернусь. Открыла свою практику в городе — работаю с подростками и семьями. Здесь каждый клиент — это не просто случай, а человек, которого ты можешь реально изменить к лучшему. Это мой вклад в будущее города."
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
